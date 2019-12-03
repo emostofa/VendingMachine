@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="669.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <MenuBar layoutY="1.0" prefHeight="678.0" prefWidth="705.0" AnchorPane.bottomAnchor="-78.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-50.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" focusTraversable="true" height="535.0" layoutX="36.0" layoutY="43.0" opacity="0.47" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" width="614.0" />
+      <Button fx:id="bA" layoutX="517.0" layoutY="217.0" mnemonicParsing="false" onAction="#SelectItem1" style="-fx-background-color: white; -fx-background-radius: 10px;" text="A">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bB" layoutX="516.0" layoutY="252.0" mnemonicParsing="false" onAction="#SelectItem2" style="-fx-background-color: white; -fx-background-radius: 10px;" text="B">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bC" layoutX="515.0" layoutY="282.0" mnemonicParsing="false" onAction="#SelectItem3" style="-fx-background-color: white; -fx-background-radius: 10px;" text="C">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bD" layoutX="515.0" layoutY="314.0" mnemonicParsing="false" onAction="#SelectItem4" style="-fx-background-color: white; -fx-background-radius: 10px;" text="D">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bE" layoutX="516.0" layoutY="347.0" mnemonicParsing="false" onAction="#SelectItem5" prefHeight="25.0" prefWidth="27.0" style="-fx-background-color: white; -fx-background-radius: 10px;" text="E">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bF" layoutX="547.0" layoutY="217.0" mnemonicParsing="false" onAction="#SelectItem6" prefHeight="25.0" prefWidth="27.0" style="-fx-background-color: white; -fx-background-radius: 10px;" text="F">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bG" layoutX="547.0" layoutY="252.0" mnemonicParsing="false" onAction="#SelectItem7" style="-fx-background-color: white; -fx-background-radius: 10px;" text="G">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bH" layoutX="547.0" layoutY="282.0" mnemonicParsing="false" onAction="#SelectItem8" style="-fx-background-color: white; -fx-background-radius: 10px;" text="H">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bI" layoutX="547.0" layoutY="314.0" mnemonicParsing="false" onAction="#SelectItem9" prefHeight="25.0" prefWidth="26.0" style="-fx-background-color: white; -fx-background-radius: 10px;" text="I">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bJ" layoutX="547.0" layoutY="347.0" mnemonicParsing="false" onAction="#SelectItem10" prefHeight="25.0" prefWidth="27.0" style="-fx-background-color: white; -fx-background-radius: 10px;" text="J">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bK" layoutX="584.0" layoutY="217.0" mnemonicParsing="false" onAction="#SelectItem11" prefHeight="25.0" prefWidth="27.0" style="-fx-background-color: white; -fx-background-radius: 10px;" text="K">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bL" layoutX="584.0" layoutY="250.0" mnemonicParsing="false" onAction="#SelectItem12" prefHeight="25.0" prefWidth="27.0" style="-fx-background-color: white; -fx-background-radius: 10px;" text="L">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bM" layoutX="584.0" layoutY="282.0" mnemonicParsing="false" onAction="#SelectItem13" style="-fx-background-color: white; -fx-background-radius: 10px;" text="M">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bN" layoutX="584.0" layoutY="314.0" mnemonicParsing="false" onAction="#SelectItem14" style="-fx-background-color: white; -fx-background-radius: 10px;" text="N">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bO" layoutX="585.0" layoutY="347.0" mnemonicParsing="false" onAction="#SelectItem15" style="-fx-background-color: white; -fx-background-radius: 10px;" text="O">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bP" layoutX="612.0" layoutY="217.0" mnemonicParsing="false" onAction="#SelectItem16" style="-fx-background-color: white; -fx-background-radius: 10px;" text="P">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bQ" layoutX="612.0" layoutY="250.0" mnemonicParsing="false" onAction="#SelectItem17" prefHeight="25.0" prefWidth="27.0" style="-fx-background-color: white; -fx-background-radius: 10px;" text="Q">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bR" layoutX="612.0" layoutY="282.0" mnemonicParsing="false" onAction="#SelectItem18" style="-fx-background-color: white; -fx-background-radius: 10px;" text="R">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bS" layoutX="612.0" layoutY="314.0" mnemonicParsing="false" onAction="#SelectItem19" style="-fx-background-color: white; -fx-background-radius: 10px;" text="S">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bT" layoutX="614.0" layoutY="347.0" mnemonicParsing="false" onAction="#SelectItem20" style="-fx-background-color: white; -fx-background-radius: 10px;" text="T">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff" height="56.0" layoutX="56.0" layoutY="505.0" stroke="WHITE" strokeType="INSIDE" style="-fx-background-color: white; -fx-background-radius: 10px;" width="404.0" />
+      <Button fx:id="item" layoutX="57.0" layoutY="506.0" mnemonicParsing="false" onAction="#ItemCollect" prefHeight="56.0" prefWidth="404.0" style="-fx-background-radius: 0px; -fx-background-color: white;" text="Push To Collect">
+         <font>
+            <Font name="Century Gothic Bold" size="18.0" />
+         </font>
+      </Button>
+
+      <Button fx:id="enterMon" layoutX="501.0" layoutY="122.0" mnemonicParsing="false" onAction="#InputMoney" style="-fx-background-color: #dadada; -fx-background-radius: 10px;" text="৳ Enter Money Here">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="op" layoutX="562.0" layoutY="540.0" mnemonicParsing="false" onAction="#Operator" prefHeight="23.0" prefWidth="80.0" style="-fx-background-color: gray; -fx-background-radius: 10px;" text="Operator" textAlignment="JUSTIFY" textFill="#c9c9c9" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Button>
+
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="391.0" layoutX="58.0" layoutY="86.0" stroke="WHITE" strokeType="INSIDE" width="404.0" />
+      <Line endX="100.0" layoutX="159.0" layoutY="156.0" startX="-100.0" stroke="#ff5e5e" />
+      <Line endX="100.0" layoutX="159.0" layoutY="234.0" startX="-100.0" stroke="#fc6262" />
+      <Line endX="100.0" layoutX="159.0" layoutY="311.0" startX="-100.0" stroke="#ff4d4d" />
+      <Line endX="100.0" layoutX="360.0" layoutY="156.0" startX="-100.0" stroke="#ff6464" />
+      <Line endX="100.0" layoutX="360.0" layoutY="234.0" startX="-100.0" stroke="#fc6868" />
+      <Line endX="100.0" layoutX="359.0" layoutY="311.0" startX="-100.0" stroke="#ff6262" />
+      <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="59.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/Coca_Cola_Bottle_PNG_Image_26690.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="63.0" layoutX="67.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/can-packaging-04c-512.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="173.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/30565-5-mountain-dew-photos.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="282.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/icon-512-512-true-801b79ca685f1e590c3c946706e77033.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="25.0" layoutX="394.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/Sprite_PNG_Bottle_Image_27652.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="80.0" layoutX="173.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/soda-can-icon-3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="293.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/kisspng-fizzy-drinks-coca-cola-fresca-fanta-orange-soft-dr-fanta-5ac2c7697b7707.4300739115227144735057.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="379.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/30845-5-mountain-dew-clipart.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="45.0" layoutX="79.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/png-chips-lays-chips-pack-png-transparent-image-1200.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="40.0" layoutX="175.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/0002840007056_1_A1C1_1200.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="40.0" layoutX="286.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/2D_us_pc_5oz_explode_1200x1600_v1_ss.png_2021450c286ba780a4b1466f7e265d3f.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="44.0" layoutX="382.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/jpc_hotspicy_smallest.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="92.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/881071-cokeicon330ml.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="188.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/fanta_icon_330ml.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="298.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/mountain-dew-bottle-drawing-31.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="394.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/Documents/Project/Sprite_PNG_Bottle_Image_27641.png" />
+         </image>
+      </ImageView>
+      <Line endX="100.0" layoutX="159.0" layoutY="394.0" startX="-100.0" stroke="#ff6262" />
+      <Line endX="100.0" layoutX="359.0" layoutY="394.0" startX="-100.0" stroke="#ff5e5e" />
+      <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="77.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/IdeaProjects/Vending%20Machine/Project/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="174.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/IdeaProjects/Vending%20Machine/Project/2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="282.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/IdeaProjects/Vending%20Machine/Project/3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="380.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/emon/IdeaProjects/Vending%20Machine/Project/4.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="175.0" layoutY="134.0" text="F- ৳45">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="77.0" layoutY="208.0" text="B- ৳25" textAlignment="CENTER">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="172.0" layoutY="208.0" text="G- ৳25">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="283.0" layoutY="209.0" text="L- ৳30">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="378.0" layoutY="209.0" text="Q- ৳23">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label contentDisplay="TOP" layoutX="68.0" layoutY="135.0" text="A- ৳50">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="283.0" layoutY="134.0" text="K- ৳45">
+         <font>
+            <Font name="Century Gothic Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="379.0" layoutY="133.0" text="P- ৳55">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="75.0" layoutY="291.0" text="C- ৳35">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="171.0" layoutY="292.0" text="H- ৳40">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="380.0" layoutY="292.0" text="R- ৳35">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="279.0" layoutY="291.0" text="M- ৳25">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="173.0" layoutY="371.0" text="I- ৳20">
+         <font>
+            <Font name="Comic Sans MS Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="75.0" layoutY="371.0" text="D- ৳20">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="281.0" layoutY="371.0" text="N- ৳20">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="387.0" layoutY="371.0" text="S- ৳20">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="77.0" layoutY="452.0" text="E- ৳70">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="276.0" layoutY="452.0" text="O- ৳100">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="169.0" layoutY="452.0" text="J- ৳120">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="382.0" layoutY="452.0" text="T- ৳200">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font></Label>
+
+      <Label layoutX="513.0" layoutY="393.0" text="Balance:" textFill="#111111">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Label>
+      <Label fx:id="balance" layoutX="583.0" layoutY="393.0" prefHeight="19.0" prefWidth="48.0" text="-">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
