@@ -134,104 +134,104 @@
       <Line endX="100.0" layoutX="359.0" layoutY="311.0" startX="-100.0" stroke="#ff6262" />
       <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="59.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/Coca_Cola_Bottle_PNG_Image_26690.png" />
+            <Image url="@Project/Coca_Cola_Bottle_PNG_Image_26690.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="63.0" layoutX="67.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/can-packaging-04c-512.png" />
+            <Image url="@Project/can-packaging-04c-512.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="173.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/30565-5-mountain-dew-photos.png" />
+            <Image url="@Project/30565-5-mountain-dew-photos.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="282.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/icon-512-512-true-801b79ca685f1e590c3c946706e77033.png" />
+            <Image url="@Project/icon-512-512-true-801b79ca685f1e590c3c946706e77033.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="25.0" layoutX="394.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/Sprite_PNG_Bottle_Image_27652.png" />
+            <Image url="@Project/Sprite_PNG_Bottle_Image_27652.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="80.0" layoutX="173.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/soda-can-icon-3.jpg" />
+            <Image url="@Project/soda-can-icon-3.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="293.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/kisspng-fizzy-drinks-coca-cola-fresca-fanta-orange-soft-dr-fanta-5ac2c7697b7707.4300739115227144735057.jpg" />
+            <Image url="@Project/kisspng-fizzy-drinks-coca-cola-fresca-fanta-orange-soft-dr-fanta-5ac2c7697b7707.4300739115227144735057.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="379.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/30845-5-mountain-dew-clipart.png" />
+            <Image url="@Project/30845-5-mountain-dew-clipart.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="45.0" layoutX="79.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/png-chips-lays-chips-pack-png-transparent-image-1200.png" />
+            <Image url="@Project/png-chips-lays-chips-pack-png-transparent-image-1200.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="56.0" fitWidth="40.0" layoutX="175.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/0002840007056_1_A1C1_1200.png" />
+            <Image url="@Project/0002840007056_1_A1C1_1200.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="50.0" fitWidth="40.0" layoutX="286.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/2D_us_pc_5oz_explode_1200x1600_v1_ss.png_2021450c286ba780a4b1466f7e265d3f.png" />
+            <Image url="@Project/2D_us_pc_5oz_explode_1200x1600_v1_ss.png_2021450c286ba780a4b1466f7e265d3f.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="50.0" fitWidth="44.0" layoutX="382.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/jpc_hotspicy_smallest.png" />
+            <Image url="@Project/jpc_hotspicy_smallest.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="92.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/881071-cokeicon330ml.jpg" />
+            <Image url="@Project/881071-cokeicon330ml.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="188.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/fanta_icon_330ml.jpg" />
+            <Image url="@Project/fanta_icon_330ml.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="298.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/mountain-dew-bottle-drawing-31.jpg" />
+            <Image url="@Project/mountain-dew-bottle-drawing-31.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="394.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/Documents/Project/Sprite_PNG_Bottle_Image_27641.png" />
+            <Image url="@Project/Sprite_PNG_Bottle_Image_27641.png" />
          </image>
       </ImageView>
       <Line endX="100.0" layoutX="159.0" layoutY="394.0" startX="-100.0" stroke="#ff6262" />
       <Line endX="100.0" layoutX="359.0" layoutY="394.0" startX="-100.0" stroke="#ff5e5e" />
       <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="77.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/IdeaProjects/Vending%20Machine/Project/1.png" />
+            <Image url="@Project/1.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="174.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/IdeaProjects/Vending%20Machine/Project/2.png" />
+            <Image url="@Project/2.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="282.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/IdeaProjects/Vending%20Machine/Project/3.png" />
+            <Image url="@Project/3.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="45.0" fitWidth="98.0" layoutX="380.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/emon/IdeaProjects/Vending%20Machine/Project/4.png" />
+            <Image url="@Project/4.png" />
          </image>
       </ImageView>
       <Label layoutX="175.0" layoutY="134.0" text="F- ৳45">

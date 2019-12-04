@@ -187,6 +187,21 @@ public class Controller {
         if (result.get() == buttonTypeOne) {
 
         } else if (result.get() == buttonTypeTwo) {
+
+            if (totalCost >= 500){
+                Alert alert5 = new Alert(Alert.AlertType.INFORMATION);
+                alert5.setTitle("Return");
+                alert5.setHeaderText("Congratulations!!!");
+                alert5.setContentText("You got 5% discount on spending 500+ tk!!!");
+                remainingMoney += Math.ceil(totalCost*.05);
+                balance.setText(String.valueOf(remainingMoney));
+                alert5.setGraphic(new ImageView(this.getClass().getResource("tk.png").toString()));
+                Stage stage3 = (Stage) alert5.getDialogPane().getScene().getWindow();
+
+// Add a custom icon.
+                stage3.getIcons().add(new Image(this.getClass().getResource("info.png").toString()));
+                alert5.showAndWait();
+            }
             CoinGenerator();
             Alert alertr = new Alert(Alert.AlertType.INFORMATION);
             alertr.setTitle("Return");
@@ -202,6 +217,7 @@ public class Controller {
             stage2.getIcons().add(new Image(this.getClass().getResource("info.png").toString()));
 
             alertr.showAndWait();
+
             money = 0;
             remainingMoney = 0;
             totalCost = 0;
@@ -538,9 +554,11 @@ public class Controller {
         if (mon / note2 == 1) {
             mon -= note2;
             counter2++;
+
         } else if (mon / note2 == 2) {
             mon -= note2;
             counter2 += 2;
+
         }
         if (mon / coin1 > 0) {
             mon -= coin1;
